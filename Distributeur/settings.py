@@ -90,9 +90,9 @@ WSGI_APPLICATION = 'Distributeur.wsgi.application'
 DATABASES = {
     'default': {
        'ENGINE': 'django.db.backends.oracle',
-        'NAME': 'ORCL',
-        'USER': 'system',
-        'PASSWORD': 'prosper',
+        'NAME': 'dbname',
+        'USER': 'username',
+        'PASSWORD': 'password',
         'HOST': 'photodex.com',
         'PORT': '1521',
     }
